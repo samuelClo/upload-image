@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1>{{ error }}</h1>
+<h1>{{ success }}</h1>
+
+
+<form enctype="multipart/form-data" action="./" method="post">
+  <input type="hidden" name="MAX_FILE_SIZE" value="30000" />
+  Envoyez ce fichier : <input name="userfile" type="file" />
+  <input name="filename" type="text" />
+  <input type="submit" value="Envoyer le fichier" />
+</form>
+
+</body>
+</html>
